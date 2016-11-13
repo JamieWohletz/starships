@@ -3,10 +3,12 @@
     "target": "es6",
     "module": "commonjs",
     "removeComments": true,
+    "watch": true,
     "sourceMap": true,
     "outDir": "app",
     "rootDir": "src"
   },
+  "compileOnSave": true,
   "exclude":[
     "node_modules"
   ]

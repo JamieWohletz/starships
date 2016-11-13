@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-   "private": true,
+  "private": true,
   "scripts": {
     "start": "node app/bin/www.js"
   },
@@ -23,5 +23,5 @@
     "@types/morgan": "^1.7.32",
     "@types/node": "^6.0.45",
     "@types/serve-favicon": "^2.2.27"
-  }  
+  }
 }

@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  canvas#game-canvas(width='500', height='500')
+  script(src='javascripts/vendor/require1k.min.js')
+  script(src='javascripts/vendor/matter.js')
+  script(src='javascripts/index.js')
